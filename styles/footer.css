@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 24px;
+  font: var(--text-sm);
+}
+
+footer ul {
+  display: flex;
+  gap: 24px;
+}
+
+#rocketseat {
+  display: block;
+  text-align: center;
+}
+
+img {
+  vertical-align: middle;
+}
