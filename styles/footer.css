@@ -2,7 +2,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-block: 24px;
-  font: var(--text-sm);
+  font: var(--text-md);
 }
 
 footer ul {
@@ -13,6 +13,7 @@ footer ul {
 #rocketseat {
   display: block;
   text-align: center;
+  font: var(--text-sm);
 }
 
 img {

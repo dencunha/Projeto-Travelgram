@@ -7,12 +7,17 @@ header {
   font: var(--text-md);
 }
 
-
-
 #profile {
   display: flex;
   
   gap: 32px;
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #profile > div {
@@ -25,14 +30,11 @@ header {
   margin-bottom: 8px;
 }
 
-
-
 header ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
   width: 280px;
-  
 }
 
 header ul li {
